@@ -1,0 +1,26 @@
+MONGOSH or Mongodb Shell:
+    It is a command-line tool used to interact with MongoDB.
+    Mongosh fully supports CRUD operations.
+    Works with BSON (Binary JSON), which extends JSON with additional data types.
+
+
+BSON (Binary JSON, used in MongoDB):
+    Supports additional types like ObjectId, Date, Binary Data, Decimal128, Timestamp, etc.
+    In MongoDB, data is stored in BSON format even if we write it in JSON format.
+
+
+All run in Terminal:
+    RUN -> Mongosh
+    Try:
+        1+2
+        "yash".toUpperCase();
+        show dbs;
+        db
+
+
+Document: Mongo store data in form of document (BSON docs)
+Collection: Mongo stores document in Collection.
+
+IN GENERAL:
+    Database ->    tables   ->  row     // Relational Database
+    Database -> Collections -> document // MongoDB
