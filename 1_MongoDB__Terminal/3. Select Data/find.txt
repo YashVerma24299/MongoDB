@@ -1,0 +1,20 @@
+Return Everything:
+    db.collection_name.find()
+
+
+For specific:
+    db.collection_name.find( {key: value} )
+                OR
+    db.collection_name.findOne( {key: value} )
+
+
+
+db.Student.find( {name:"Yash"} )
+db.Student.find( {name:"Yash", age: 21} )
+db.Student.find({age:{$gt: 23}})
+db.Student.find(  {$or: [{age:{$gt: 23}}, {name:"Yash"}]}  )
+
+
+
+Opeartors:
+    https://www.mongodb.com/docs/manual/reference/operator/query/
