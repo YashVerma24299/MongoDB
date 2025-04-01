@@ -1,0 +1,29 @@
+Check this
+      https://www.mongodb.com/docs/mongodb-shell/crud/insert/
+
+To insert a single document use 
+    db.collection_name.insertOne().
+
+To insert multiple documents use
+    db.collection_name.insertMany().
+
+
+db.movies.insertOne(
+  {
+    title: "The Favourite",
+    genres: [ "Drama", "History" ],
+    runtime: 121
+  }
+)
+
+db.movies.insertMany([
+   {
+      title: "Jurassic World: Fallen Kingdom",
+      genres: [ "Action", "Sci-Fi" ],
+      runtime: 130
+    },
+    {
+      title: "Tag",
+      genres: [ "Comedy", "Action" ]
+    }
+])
