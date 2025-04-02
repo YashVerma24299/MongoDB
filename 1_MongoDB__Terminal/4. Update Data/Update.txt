@@ -1,0 +1,17 @@
+There are many operation -> check on mongodb website
+
+db.collection.updateOne( <filter>, <update>)
+updateMany
+replaceOne
+
+Example:
+    db.Student.updateOne({name:"Ritik"}, {$set: {marks:99999}})
+
+
+
+        //Accessing Data in Nesting
+_id: ObjectId('67e81ef5a4e6e5b5d4b71243'),
+name: 'Ishu',
+perfomance: { marks: 56, age: 15 }
+
+    db.Student.find({"perfomance.marks":56})
