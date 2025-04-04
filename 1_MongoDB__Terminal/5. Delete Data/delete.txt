@@ -1,0 +1,13 @@
+To delete the first matching document:
+    db.collection_name.deleteOne({ key: value });
+
+To delete the all matching document:
+    db.collection_name.deleteMany({ key: value });
+
+Example:
+    db.Student.deleteOne({name:"Yash"})
+    db.Student.deleteMany( {age: {$gt:23}} )
+    Empty the collection:
+        db.Student.deleteMany( {} )
+    Delete the current Database:
+        db.dropDatabase()
