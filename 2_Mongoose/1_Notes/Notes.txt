@@ -1,0 +1,6 @@
+Mongoose:
+    Create a connection between mongodb and Node.js Javascript Runtime Environment
+
+
+In these we learn:
+    How mongodb work with json
