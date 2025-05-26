@@ -1,0 +1,16 @@
+*{
+    margin-left: 20px;
+}
+.chat{
+    background-color: #a1c9dd;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 16px;
+    display: inline-block;
+}
+.msg{
+    background-color: #3398d3;
+    color: white;
+    border-radius: 16px;
+}
